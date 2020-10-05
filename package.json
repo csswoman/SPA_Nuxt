@@ -19,6 +19,7 @@
   "description": "",
   "dependencies": {
     "axios": "^0.20.0",
+    "bulma": "^0.9.1",
     "nuxt": "^2.14.6"
   }
 }

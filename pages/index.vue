@@ -1,7 +1,9 @@
 <template>
-  <div class="">
-    <h1>Álbums de la página</h1>
-    <AlbumCard :album="album" v-for="album in albums" />
+  <div class="container">
+    <h1 class="title">Álbums de la página</h1>
+    <div class="columns is-multiline">
+      <AlbumCard :album="album" v-for="album in albums" :key="album.id" />
+    </div>
   </div>
 </template>
 
